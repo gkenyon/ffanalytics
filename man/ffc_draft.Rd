@@ -5,7 +5,7 @@
 \title{Get ADP data from Fantasy Football Calculator}
 \usage{
 ffc_draft(format = c("standard", "ppr", "2qb", "dynasty", "rookie"),
-  pos = c("all", "qb", "rb", "wr", "te", "def", "pk"), season = 2018)
+  pos = c("all", "qb", "rb", "wr", "te", "def", "pk"), season = 2019)
 }
 \arguments{
 \item{format}{Indicates which league format data should be returned for.
