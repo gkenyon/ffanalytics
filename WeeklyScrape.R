@@ -6,10 +6,10 @@ my_scrape <- scrape_data(src = c("CBS", "ESPN", "FantasyData", "FantasyPros", "F
                                  "FleaFlicker", "NumberFire", "Yahoo", "FantasyFootballNerd", "NFL",
                                  "RTSports","Walterfootball"),
 pos = c("QB", "RB", "WR", "TE", "DST"),
-season = 2019, week = 2)
+season = 2019, week = 6)
 
 nf_scrape <- scrape_data(src = "NumberFire", pos = c("QB", "RB", "WR", "TE"),
-season = 2019, week = 3)
+season = 2019, week = 6)
 nf_qb <- nf_scrape$QB
 nf_rb <- nf_scrape$RB
 nf_wr <- nf_scrape$WR
