@@ -13,3 +13,4 @@
                   age = as.integer(lubridate::year(Sys.time()) - lubridate::year(birthdate)),
                   exp = 2019 - as.integer(draft_year))
 }
+
